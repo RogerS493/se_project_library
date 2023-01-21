@@ -45,7 +45,11 @@
           your development knowledge, or just use this lovely spot to work or
           study. This is a cool place for cool students!
         </p>
-        <img src="./images/inside_the_library.png" alt="Illustration 'Inside the library'" class="header__image" >
+        <img
+          src="./images/inside_the_library.png"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
         <div class="header__footer">
           <a href="#about" class="header__link">About the library &darr;</a>
           <p class="header__address">
@@ -59,7 +63,7 @@
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <!-- The ul tag (unordered list) is used here as it is a collection of cards for which the order doesn't really matter. -->
-          <ul class="staff-cards">
+          <ul class="staff__cards">
             <li class="card">
               <div class="card__content">
                 <h3 class="card__title">Introduction to Algorithms</h3>
@@ -163,50 +167,56 @@
           </div>
           <!-- Start creating the composition here -->
           <div class="events__cover">
-            <img class="events__image"
-            src="images/cafe.png"
-            alt="Illustration of Cafe" >
-          <div class=" person person_name_feynman">
-            <p class="person__caption">Joan Feynman</p>
             <img
-              class="person__image person__image_size_l"
-              src="images/person_feynman.png"
-              alt="Joan Feynman">
-          </div>
-          <div class=" person person_name_burbidge">
-            <p class="person__caption">Margaret Burbidge</p>
-            <img
-              class="person__image person__image_size_m"
-              src="images/person_burbidge.png"
-              alt="Margaret Burbidge">
-          </div>
-          <div class=" person person_name_cannon">
-            <img
-              class="person__image person__image_size_m"
-              src="images/person_cannon.png"
-              alt="Annie Jump Cannon">
-            <p class="person__caption">Annie Jump Cannon</p>
-          </div>
-          <div class=" person person_name_mitchell">
-            <img
-              class="person__image person__image_size_s"
-              src="images/person_mitchell.png"
-              alt="Maria Mitchell">
-            <p class="person__caption">Maria Mitchell</p>
-          </div>
-          <div class=" person person_name_tarter">
-            <p class="person__caption">Jill Tarter</p>
-            <img
-              class="person__image person__image_size_m"
-              src="images/person_tarter.png"
-              alt="Jill Tarter">
+              class="events__image"
+              src="images/cafe.png"
+              alt="Illustration of Cafe"
+            />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                class="person__image person__image_size_l"
+                src="images/person_feynman.png"
+                alt="Joan Feynman"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                class="person__image person__image_size_m"
+                src="images/person_burbidge.png"
+                alt="Margaret Burbidge"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              <img
+                class="person__image person__image_size_m"
+                src="images/person_cannon.png"
+                alt="Annie Jump Cannon"
+              />
+              <p class="person__caption">Annie Jump Cannon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                class="person__image person__image_size_s"
+                src="images/person_mitchell.png"
+                alt="Maria Mitchell"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                class="person__image person__image_size_m"
+                src="images/person_tarter.png"
+                alt="Jill Tarter"
+              />
+            </div>
           </div>
         </section>
 
         <section class="membership" id="become-a-member">
-          <h2 class="membership__title">
-            Becoming a library member is easy!
-          </h2>
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
               <h3 class="step__title">
@@ -281,43 +291,54 @@
               the American Geophysical Union.
             </p>
           </div>
-           <div class="about__circle"></div>
+          <div class="about__circle"></div>
         </section>
       </main>
       <footer class="footer" id="footer">
         <!-- The time to mark up the footer has come, you can do it 💪 -->
         <div class="footer__columns">
-          <div class="footer__column"></div>
+          <div class="footer__column">
             <img
-            class="footer__logo"
-            src="images/logo_white.png"
-            alt="Practicum Logo">
-          <div class="footer__column footer__column_hours">
-            <h2 class="footer__heading">Hours</h2>
-            <ul class="footer__lists">
+              class="footer__logo"
+              src="images/logo_white.png"
+              alt="Practicum Logo"
+            />
+          </div>
+
+          <div class="footer__column footer__column_content_hours">
+            <h2 class="footer__column-heading">Hours</h2>
+            <ul class="footer__list">
               <li class="footer__list-item">Weekdays: 9am - 8pm</li>
               <li class="footer__list-item">Weekends: 10am - 6pm</li>
             </ul>
           </div>
-          <div class="footer__column footer__column_social">
-            <h2 class="footer__heading">Social Media</h2>
+          <div class="footer__column footer__column_content_social">
+            <h2 class="footer__column-heading">Social Media</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__column-link" href="#">
-                  <img class="footer__social-icon" src="images/facebook_white.svg" alt="Facebook Logo">
+                  <img
+                    class="footer__social-icon"
+                    src="images/facebook_white.svg"
+                    alt="Facebook Logo"
+                  />
                   Facebook
                 </a>
               </li>
               <li class="footer__list-item">
                 <a class="footer__column-link" href="#">
-                  <img class="footer__social-icon" src="images/instagram_white.svg" alt="Instagram Logo">
+                  <img
+                    class="footer__social-icon"
+                    src="images/instagram_white.svg"
+                    alt="Instagram Logo"
+                  />
                   Instagram
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <p class="footer__column-copyrights">&copy; 2022 Roger Sanchez</p>
+        <p class="footer__copyright">&copy; 2022 Roger Sanchez</p>
       </footer>
     </div>
   </body>
