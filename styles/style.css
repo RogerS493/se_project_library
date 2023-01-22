@@ -128,7 +128,7 @@
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__cards {
   max-width: 760px;
-  margin: auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
